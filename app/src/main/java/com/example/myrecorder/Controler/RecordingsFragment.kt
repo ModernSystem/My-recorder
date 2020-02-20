@@ -278,6 +278,10 @@ class RecordingsFragment : Fragment(),PlayButtonListener,SeekBarCallBack,RecordM
 
     }
 
+    /**
+     * Modal BottomSheet callback and function
+     */
+
     override fun onRecordModifierClicked(position: Int) {
 
         when (position){
